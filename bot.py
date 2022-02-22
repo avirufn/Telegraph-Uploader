@@ -3,15 +3,15 @@ from telegraph import upload_file
 from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-API_ID = ""
-API_HASH = ""
-BOT_TOKEN = ""
+API_ID = os.getenv("API_ID")
+API_HASH = os.getenv("API_HASH")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 semsy = Client(
    "SWTelegraph",
    api_id=API_ID,
    api_hash=API_HASH,
-   semsy_token=BOT_TOKEN)
+   bot_token=BOT_TOKEN)
 
 
 @semsy.on_message(filters.command(["start"]))
