@@ -3,7 +3,7 @@
   "description": "Telegraph Uploader",
   "repository": "https://github.com/jamesfndev/Telegraph-Uploader",
   "logo": "https://telegra.ph/file/848bcbc657ffd73d2c357.jpg",
-  "keywords": ["caption"],
+  "keywords": ["telegraph"],
   "env": {
      "BOT_TOKEN": {
       "description": "Get your Bot token from @Botfather",
