@@ -26,7 +26,7 @@ async def home(client, message):
   reply_markup = InlineKeyboardMarkup(buttons)
   await semsy.send_photo(
         chat_id=message.chat.id,
-        photo="https://telegra.ph/file/e3d8a96439843091effe6.jpg,
+        photo="https://telegra.ph/file/e3d8a96439843091effe6.jpg",
         caption=f"""Hello dear,
 I'm Telegraph Uploader bot, you can upload any file telegraph with me.
 
@@ -43,7 +43,7 @@ async def help(client, message):
   reply_markup = InlineKeyboardMarkup(buttons)
   await semsy.send_video(
         chat_id=message.chat.id,
-        video="https://telegra.ph/file/32ae6eb9ea15e298008c9.mp4,
+        video="https://telegra.ph/file/32ae6eb9ea15e298008c9.mp4",
         caption="""       
 Just Send Me A Video/gif/photo Upto 5mb.
 I'll upload it to telegraph and give you the direct link""",
